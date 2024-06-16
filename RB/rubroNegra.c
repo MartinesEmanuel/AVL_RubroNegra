@@ -1,4 +1,3 @@
-/* EMANUEL MARTINS 20220070423*/
 #include "rubroNegra.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -306,9 +305,9 @@ void liberaNos(no *raiz, no *sentinelaFolha) {
 
 void limpaArvore(rb *arv) {
     if (arv != NULL) {
-        liberaNos(arv->sentinela->Fdir, arv->sentinelaFolha); // Libera todos os nós da árvore
-        free(arv->sentinelaFolha); // Libera a sentinela folha
-        free(arv->sentinela); // Libera a sentinela
+        liberaNos(arv->sentinela->Fdir, arv->sentinelaFolha); 
+        free(arv->sentinelaFolha); 
+        free(arv->sentinela); 
         free(arv); // Libera a estrutura da árvore
     }
 }
