@@ -1,6 +1,3 @@
-//
-// Created by Vanessa on 27/04/2023.
-//
 
 #ifndef INC_7_AVL_AVL_H
 #define INC_7_AVL_AVL_H
